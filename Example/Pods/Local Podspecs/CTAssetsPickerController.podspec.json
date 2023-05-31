@@ -1,0 +1,33 @@
+{
+  "name": "CTAssetsPickerController",
+  "version": "3.3.5",
+  "summary": "[Fix ImageResouce]iOS control that allows picking multiple photos and videos from user's photo library.",
+  "description": "Fork from https://github.com/chiunam/CTAssetsPickerController\n CTAssetsPickerController is an iOS controller that allows picking\n multiple photos and videos from user's photo library.\n The usage and look-and-feel just similar to UIImagePickerController.\n It uses **ARC** and **Photos** frameworks.",
+  "homepage": "https://git.oschina.net/qcrm/ctassetspickercontroller",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "iFallen": "hulj1204@yahoo.com"
+  },
+  "source": {
+    "git": "https://git.oschina.net/qcrm/ctassetspickercontroller.git",
+    "tag": "3.3.5"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CTAssetsPickerController/**/*.{h,m}",
+  "resources": "CTAssetsPickerController/CTAssetsPickerController.bundle",
+  "public_header_files": "CTAssetsPickerController/*.h",
+  "ios": {
+    "frameworks": "Photos"
+  },
+  "requires_arc": true,
+  "dependencies": {
+    "PureLayout": [
+      "~> 3.0.0"
+    ]
+  }
+}
