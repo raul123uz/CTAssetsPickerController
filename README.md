@@ -8,6 +8,9 @@
 >
 处理原工程资源丢失，无选中图片
 
+## Diaclaimer
+Please find the original repository [here](https://git.oschina.net/qcrm/ctassetspickercontroller.git).
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
